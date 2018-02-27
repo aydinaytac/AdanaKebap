@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,32 +8,95 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
-
-    <ImageView
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/AdanaKebap"
-        android:layout_gravity="center" />
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/company_name"
-        android:fontFamily="@font/berkshire_swash"
-        android:layout_gravity="center"
-        android:textSize="@dimen/text_size30"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/adanakebap" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/motto"
-            android:fontFamily="@font/GloriaHallelujah"
             android:layout_gravity="center"
-            android:textSize="@dimen/text_size24"/>
+            android:fontFamily="@font/berkshire_swash_regular"
+            android:text="@string/company_name"
+            android:textSize="@dimen/text_size30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:text="@string/motto"
+            android:textSize="@dimen/text_size24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin8"
+                android:scaleType="center"
+                android:src="@drawable/telephone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:text="@string/telephone"
+                android:textSize="@dimen/text_size20"
+                android:layout_marginLeft="@dimen/margin8"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin8"
+                android:src="@drawable/hours" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:text="@string/hours"
+                android:textSize="@dimen/text_size20"
+                android:layout_marginLeft="@dimen/margin8"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin8"
+                android:src="@drawable/pin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:text="@string/address"
+                android:textSize="@dimen/text_size20"
+                android:layout_marginLeft="@dimen/margin8"/>
+        </LinearLayout>
+
     </LinearLayout>
 
 </ScrollView>
