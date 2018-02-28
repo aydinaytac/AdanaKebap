@@ -24,7 +24,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/berkshire_swash_regular"
             android:text="@string/company_name"
-            android:textSize="@dimen/text_size30" />
+            android:textSize="@dimen/text_size32" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,10 +49,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin8"
                 android:fontFamily="@font/gloria_hallelujah"
                 android:text="@string/telephone"
-                android:textSize="@dimen/text_size20"
-                android:layout_marginLeft="@dimen/margin8"/>
+                android:textSize="@dimen/text_size20" />
 
         </LinearLayout>
 
@@ -70,10 +70,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin8"
                 android:fontFamily="@font/gloria_hallelujah"
                 android:text="@string/hours"
-                android:textSize="@dimen/text_size20"
-                android:layout_marginLeft="@dimen/margin8"/>
+                android:textSize="@dimen/text_size20" />
 
         </LinearLayout>
 
@@ -91,10 +91,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin8"
                 android:fontFamily="@font/gloria_hallelujah"
                 android:text="@string/address"
-                android:textSize="@dimen/text_size20"
-                android:layout_marginLeft="@dimen/margin8"/>
+                android:textSize="@dimen/text_size20" />
         </LinearLayout>
 
     </LinearLayout>
